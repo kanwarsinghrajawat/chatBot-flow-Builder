@@ -18,8 +18,18 @@ const Modal = ({ isOpen, setIsOpen }: any) => {
                 <Description>Cannot save Flow</Description>
                 <Description>All nodes must be connected! </Description>
                 <div className="flex gap-4 justify-center">
-                  <button onClick={() => setIsOpen(false)}>OK</button>
-                  <button onClick={() => setIsOpen(false)}>CLOSE</button>
+                  <button
+                    className="text-red-300 font-semibold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    OK
+                  </button>
+                  <button
+                    className="text-red-300 font-semibold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    CLOSE
+                  </button>
                 </div>
               </DialogPanel>
             </div>

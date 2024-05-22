@@ -1,7 +1,7 @@
 HOW TO START THE PROJECT:
 
 1. clone the project using git clone and the url
-2. npm i (to install the dependencies)
+2. pnpm i (to install the dependencies)
 3. npm run dev (to start the project)
 
 NPM packages:
